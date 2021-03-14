@@ -20,15 +20,15 @@
             <div class="main-navigation-wrapper">
                 <div class="container">
                     <ul class="site-navigation">
-                        <li><a href="info.html">Информация</a></li>
-                        <li> <a href="news.html">Новости</a> </li>
-                        <li> <a href="price.html">Прайс-лист</a> </li>
+                        <li><a href="#">Информация</a></li>
+                        <li> <a href="#">Новости</a> </li>
+                        <li> <a href="#">Прайс-лист</a> </li>
                         <li> <a href="./pages/shop.html">Магазин</a></li>
-                        <li> <a href="contacts.html">Контакты</a> </li>
+                        <li> <a href="#">Контакты</a> </li>
                     </ul>
                     <ul class="user-navigation">
                         <li>
-                            <a class="login-link" href="login.html">Вход </a>
+                            <a class="login-link" href="#">Вход </a>
                         </li>
                     </ul>
                 </div>
@@ -100,7 +100,7 @@
                     пн—пт: с 10:00 до 22:00<br>
                     сб—вс: с 10:00 до 19:00<br>
                 </p>
-                <a class="button" href="map.html">Как проехать</a>
+                <a class="button contacts-button-map" href="#">Как проехать</a>
                 <a class="button" href="contacts.html">Обратная связь</a>
             </section>
             <section class="appointment">
@@ -212,13 +212,16 @@
     </section>
     <section class="modal modal-map">
         <h2 class="visually-hidden">Как до нас добраться</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5987435251855!2d30.321288316100723!3d59.93880016904765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310e354288bb%3A0xbbeecda9980bbc58!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE4LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2spl!4v1615714799381!5m2!1sru!2spl"
+            width="766" height="565" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <p>
-            <img src="./img/mapjpg.jpg" width="1738" height="783" alt="Офис
+            <img src="./img/mapjpg.jpg" width="766" height="560" alt="Офис
                 компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
         </p>
         <button class="modal-close">Закрыть</button>
     </section>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
